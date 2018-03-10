@@ -1,2 +1,42 @@
+//styles for bootstrap framework goes here
+$navbar-default-bg: #08088a;
+$navbar-border-radius:none;
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+
+//custom styles goes here
+
+#logo{
+  float: left;
+  font-size: 1.1em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #fff;
+}
+.jumbotron{
+  background-image: asset-url('2.jpg');
+  height: 400px;
+  color: #08088a;
+}
+
+footer{
+  text-align: center;
+  background-color: #08088a;
+  height: 60px;
+  color: #fff;
+  padding-top: 20px;
+  margin-top: 40px;
+}
