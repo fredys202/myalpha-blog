@@ -2,7 +2,6 @@
 $navbar-default-bg: #08088a;
 $navbar-border-radius:none;
 
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -39,4 +38,20 @@ footer{
   color: #fff;
   padding-top: 20px;
   margin-top: 40px;
+}
+
+.center{
+  text-align: center;
+}
+
+.article-title{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.article-body{
+  border-top: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
